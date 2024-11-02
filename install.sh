@@ -17,7 +17,7 @@ display_welcome() {
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${RED}[+] ================================================ [+]${NC}"
   echo -e ""
-  echo -e "Script ini di buat untuk mempermudah penginstalasian thema pterodactyle,"
+  echo -e "Script ini di buat untuk mempermudah penginstalasian thema pterodactyl,"
   echo -e "Copyright Ahmad, All rights reserved."
   echo -e ""
   echo -e "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 :"
@@ -62,13 +62,13 @@ check_token() {
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "ahmadsikmaspace" ]; then
+  if [ "$USER_TOKEN" = "YxW19JzKxInVi" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
     echo -e "${GREEN}Yah token nya expired, Beli dulu di Ahmad ya${NC}"
     echo -e "${YELLOW}TELEGRAM : @Deliogalilei${NC}"
     echo -e "${YELLOW}WHATSAPP : 6285183343636${NC}"
-    echo -e "${YELLOW}HARGA TOKEN : 10K FREE UPDATE JIKA ADA TOKEN BARU, JUST CONTACT ME${NC}"
+    echo -e "${YELLOW}HARGA TOKEN : 25K FREE UPDATE JIKA ADA TOKEN BARU, JUST CONTACT ME${NC}"
     echo -e "${YELLOW}©Ahmad X Cerberus${NC}"
     exit 1
   fi
